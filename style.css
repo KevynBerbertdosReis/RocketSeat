@@ -1,3 +1,10 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-image: url(./assets/Fundo.png);
     background-repeat: no-repeat;
@@ -5,4 +12,38 @@ body{
     background-position: top center;
     background-color: #121214;
     color: white;
+}
+
+body *, :root{
+    font-family: inter, sans-serif;
+    line-height: 140%;
+}
+
+
+header{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+header img{
+    width: 20rem;
+}
+
+main{
+    max-width: 36rem;
+    width: 90%;
+    margin: 3rem auto;
+}
+
+section{
+    background-image: linear-gradient(90deg, #5523ec 0%, #0e03a7 50%, #636366 100%);
+    border-radius: 0.625rem;
+    padding-top: 0.2rem;
+}
+
+section > div{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    background-color: #2A2634;
+    border-radius: 0.5rem;
 }
